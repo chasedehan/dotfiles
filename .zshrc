@@ -13,3 +13,6 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 bindkey -v '^?' backward-delete-char
 bindkey "^R" history-incremental-search-backward
+
+# Aliases
+alias ca="conda activate"
